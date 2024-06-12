@@ -1,0 +1,57 @@
+body{
+  background-image: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../image/bg_image.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: roboto,arial;
+}
+header{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+header div{
+  color:rgba(248, 0, 0, 0.966);
+  font-size: 70px;
+  font-weight: bold;
+
+}
+header button{
+  background-color: rgba(248, 0, 0, 0.966);
+  color:white;
+  width:90px;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  border:none;
+  cursor:pointer;
+}
+.logo{
+  opacity: 0.65;
+   }
+main{
+  text-align: center;
+  color:white;
+  font-size: 25px;
+  line-height: 0.7;
+}
+main p{
+  font-size:16px;
+}
+input{
+  width:350px;
+  padding: 14px 16px;
+}
+input::placeholder{
+  color:black;
+  
+}
+main button{
+  padding: 16px 16px;
+  color:white;
+  background-color: rgba(248, 0, 0, 0.966);
+  color:white;
+  border:none;
+}
+
+
